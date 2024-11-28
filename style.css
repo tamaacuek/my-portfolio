@@ -371,7 +371,9 @@ article .icon {
 
 .container {
   display: flex;
-  gap: 2.5rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 h1 {
