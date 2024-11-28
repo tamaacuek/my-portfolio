@@ -442,6 +442,10 @@ p {
   aspect-ratio: 1/1;
 }
 
+.teks-dikit {
+  display: none;
+}
+
 /* projects section */
 #projects {
   position: relative;

@@ -38,7 +38,7 @@
   .section__pic-container {
     width: 275px;
     height: 274px;
-    margin: 0 auto 2rem;
+    margin: 0 auto;
   }
   .about-containers {
     margin-top: 0;
@@ -53,6 +53,16 @@
   #profile {
     height: 80vh;
     margin-bottom: 0;
+  }
+  .section__pic-container {
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+  }
+  .section__pic-container img {
+    height: 300px;
+    width: 300px;
   }
   article {
     font-size: 1rem;
@@ -97,5 +107,30 @@
   }
   .text-container {
     text-align: justify;
+  }
+
+  /* services */
+  .container {
+    gap: 0;
+  }
+
+  .container .card .face.face1 {
+    width: 200px;
+  }
+
+  .container .card .face.face2 {
+    width: 200px;
+  }
+
+  .card-img img {
+    width: 200px;
+  }
+
+  .teks-banyak {
+    display: none;
+  }
+
+  .teks-dikit {
+    display: block;
   }
 }
